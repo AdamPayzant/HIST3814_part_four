@@ -110,4 +110,7 @@ Now all the data is vaguely ready to start presentation.
 
 ### Presentation
 
-
+So my original plan was to make a chloropleth map of the enlistees, as well as compare to census data.
+This plan was from before webscraping took 4 more days than planned. 
+As a result, I'll have to settle for just making some mundane graphs and some numeric observations.
+This was very roughly slapped together with matplotlib, but it allowed me to quickly move on to my analytical work seen in my reflection.
