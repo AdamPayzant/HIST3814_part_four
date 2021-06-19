@@ -1,0 +1,30 @@
+<body onload="scraper()">
+    <iframe id="ancestry">
+
+    </iframe>
+</body>
+<script>
+    function scraper() {
+        console.log("Starting");
+        document.domain = "ancestry.com";
+        /*
+        content = document.getElementById("ancestry");
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = () => {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("ancestry").src = this.responseText
+            }
+        }
+        xhttp.open("GET", "https://www.ancestry.com/search/categories/war_civil/?pg=2&count=50&residence=_Canada_3243", true);
+        xhttp.send();
+        */
+
+        document.getElementById("ancestry").src = "https://www.ancestry.com/search/categories/war_civil/?pg=2&count=50&residence=_Canada_3243";
+
+
+        let i;
+        for (i = 0; i < 211; i++) {
+            console.log("test");
+        }
+    }
+</script>
